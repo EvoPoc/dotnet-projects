@@ -1,0 +1,11 @@
+/home/dev_user/gh/evopoc/Domain/bin/Debug/net8.0/Domain.deps.json
+/home/dev_user/gh/evopoc/Domain/bin/Debug/net8.0/Domain.dll
+/home/dev_user/gh/evopoc/Domain/bin/Debug/net8.0/Domain.pdb
+/home/dev_user/gh/evopoc/Domain/obj/Debug/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/dev_user/gh/evopoc/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
+/home/dev_user/gh/evopoc/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+/home/dev_user/gh/evopoc/Domain/obj/Debug/net8.0/Domain.csproj.CoreCompileInputs.cache
+/home/dev_user/gh/evopoc/Domain/obj/Debug/net8.0/Domain.dll
+/home/dev_user/gh/evopoc/Domain/obj/Debug/net8.0/refint/Domain.dll
+/home/dev_user/gh/evopoc/Domain/obj/Debug/net8.0/Domain.pdb
+/home/dev_user/gh/evopoc/Domain/obj/Debug/net8.0/ref/Domain.dll

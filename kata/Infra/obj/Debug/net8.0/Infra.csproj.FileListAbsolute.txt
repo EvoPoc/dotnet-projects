@@ -1,0 +1,15 @@
+/home/dev_user/gh/evopoc/Infra/bin/Debug/net8.0/Infra.deps.json
+/home/dev_user/gh/evopoc/Infra/bin/Debug/net8.0/Infra.dll
+/home/dev_user/gh/evopoc/Infra/bin/Debug/net8.0/Infra.pdb
+/home/dev_user/gh/evopoc/Infra/bin/Debug/net8.0/Domain.dll
+/home/dev_user/gh/evopoc/Infra/bin/Debug/net8.0/Domain.pdb
+/home/dev_user/gh/evopoc/Infra/obj/Debug/net8.0/Infra.csproj.AssemblyReference.cache
+/home/dev_user/gh/evopoc/Infra/obj/Debug/net8.0/Infra.GeneratedMSBuildEditorConfig.editorconfig
+/home/dev_user/gh/evopoc/Infra/obj/Debug/net8.0/Infra.AssemblyInfoInputs.cache
+/home/dev_user/gh/evopoc/Infra/obj/Debug/net8.0/Infra.AssemblyInfo.cs
+/home/dev_user/gh/evopoc/Infra/obj/Debug/net8.0/Infra.csproj.CoreCompileInputs.cache
+/home/dev_user/gh/evopoc/Infra/obj/Debug/net8.0/Infra.csproj.Up2Date
+/home/dev_user/gh/evopoc/Infra/obj/Debug/net8.0/Infra.dll
+/home/dev_user/gh/evopoc/Infra/obj/Debug/net8.0/refint/Infra.dll
+/home/dev_user/gh/evopoc/Infra/obj/Debug/net8.0/Infra.pdb
+/home/dev_user/gh/evopoc/Infra/obj/Debug/net8.0/ref/Infra.dll

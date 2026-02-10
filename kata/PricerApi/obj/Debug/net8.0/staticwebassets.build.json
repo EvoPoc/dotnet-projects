@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "JnqMtWSWZ6kqGzv8NlUllajkgahCMtUcwyaDTOEnplQ=",
+  "Source": "PricerApi",
+  "BasePath": "_content/PricerApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

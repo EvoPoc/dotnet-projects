@@ -1,0 +1,15 @@
+/home/dev_user/gh/evopoc/App/bin/Debug/net8.0/App.deps.json
+/home/dev_user/gh/evopoc/App/bin/Debug/net8.0/App.dll
+/home/dev_user/gh/evopoc/App/bin/Debug/net8.0/App.pdb
+/home/dev_user/gh/evopoc/App/bin/Debug/net8.0/Domain.dll
+/home/dev_user/gh/evopoc/App/bin/Debug/net8.0/Domain.pdb
+/home/dev_user/gh/evopoc/App/obj/Debug/net8.0/App.csproj.AssemblyReference.cache
+/home/dev_user/gh/evopoc/App/obj/Debug/net8.0/App.GeneratedMSBuildEditorConfig.editorconfig
+/home/dev_user/gh/evopoc/App/obj/Debug/net8.0/App.AssemblyInfoInputs.cache
+/home/dev_user/gh/evopoc/App/obj/Debug/net8.0/App.AssemblyInfo.cs
+/home/dev_user/gh/evopoc/App/obj/Debug/net8.0/App.csproj.CoreCompileInputs.cache
+/home/dev_user/gh/evopoc/App/obj/Debug/net8.0/App.csproj.Up2Date
+/home/dev_user/gh/evopoc/App/obj/Debug/net8.0/App.dll
+/home/dev_user/gh/evopoc/App/obj/Debug/net8.0/refint/App.dll
+/home/dev_user/gh/evopoc/App/obj/Debug/net8.0/App.pdb
+/home/dev_user/gh/evopoc/App/obj/Debug/net8.0/ref/App.dll
