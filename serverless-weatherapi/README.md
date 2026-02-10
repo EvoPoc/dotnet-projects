@@ -39,6 +39,7 @@ This project follows **Hexagonal Architecture** (Ports and Adapters):
 - ✅ **Unit Tests**: XUnit with Moq and FluentAssertions
 - ✅ **Infrastructure as Code**: AWS CDK for reproducible deployments
 - ✅ **OpenWeatherMap Integration**: Real-time weather data
+- ✅ **Request Logging**: Middleware logs method, path, status, and duration
 
 ## Prerequisites
 
@@ -192,6 +193,7 @@ cdk synth
 
 ### API Layer (Lambda)
 - **Program.cs**: Minimal API endpoints with Swagger configuration
+- **RequestLoggingMiddleware**: Logs request and response details
 - Maps HTTP requests to use cases
 - Handles serialization, validation, error responses
 

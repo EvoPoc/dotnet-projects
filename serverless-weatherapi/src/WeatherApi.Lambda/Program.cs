@@ -1,6 +1,7 @@
 using Amazon.Lambda.AspNetCoreServer;
 using WeatherApi.Infrastructure;
 using WeatherApi.Core.UseCases;
+using WeatherApi.Lambda.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,6 +26,9 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 var app = builder.Build();
+
+// Log basic HTTP request/response details
+app.UseMiddleware<RequestLoggingMiddleware>();
 
 // Root endpoint - redirect to Swagger UI
 app.MapGet("/", () => Results.Redirect("/swagger/index.html"))
