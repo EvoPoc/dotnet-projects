@@ -41,16 +41,19 @@ export class WeatherApiStack extends cdk.Stack {
             code: lambda.Code.fromAsset('../src/WeatherApi.Lambda/bin/Release/net10.0/publish'),
             memorySize: 512,
             timeout: cdk.Duration.seconds(30),
-            autoPublishAlias: 'live',
-            snapStart: {
-                applyOn: lambda.SnapStartApplyOn.PUBLISHED_VERSIONS,
-            },
+            snapStart: lambda.SnapStartConf.ON_PUBLISHED_VERSIONS,
             environment: {
                 TABLE_NAME: weatherTable.tableName,
                 OPENWEATHER_API_KEY: process.env.OPENWEATHER_API_KEY || '',
                 ASPNETCORE_ENVIRONMENT: 'Production'
             },
             tracing: lambda.Tracing.ACTIVE,
+        });
+
+        // Create 'live' alias for SnapStart
+        const liveAlias = new lambda.Alias(this, 'LiveAlias', {
+            aliasName: 'live',
+            version: weatherLambda.currentVersion,
         });
 
         // Grant DynamoDB permissions to Lambda
@@ -69,7 +72,7 @@ export class WeatherApiStack extends cdk.Stack {
         });
 
         // Lambda Integration
-        const lambdaIntegration = new HttpLambdaIntegration('LambdaIntegration', weatherLambda);
+        const lambdaIntegration = new HttpLambdaIntegration('LambdaIntegration', liveAlias);
 
         // Add routes
         httpApi.addRoutes({
