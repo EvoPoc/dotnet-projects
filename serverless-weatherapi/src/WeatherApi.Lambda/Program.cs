@@ -21,7 +21,7 @@ builder.Services.AddSwaggerGen(c =>
     {
         Title = "Weather API",
         Version = "v1",
-        Description = "Serverless Weather API built with .NET 8 and AWS Lambda"
+        Description = "Serverless Weather API built with .NET 10 and AWS Lambda"
     });
 });
 
