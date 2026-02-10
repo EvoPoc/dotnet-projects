@@ -41,6 +41,10 @@ export class WeatherApiStack extends cdk.Stack {
             code: lambda.Code.fromAsset('../src/WeatherApi.Lambda/bin/Release/net10.0/publish'),
             memorySize: 512,
             timeout: cdk.Duration.seconds(30),
+            autoPublishAlias: 'live',
+            snapStart: {
+                applyOn: lambda.SnapStartApplyOn.PUBLISHED_VERSIONS,
+            },
             environment: {
                 TABLE_NAME: weatherTable.tableName,
                 OPENWEATHER_API_KEY: process.env.OPENWEATHER_API_KEY || '',
